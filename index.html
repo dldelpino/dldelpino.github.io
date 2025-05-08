@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href=".\style.css"> <!-- vincular archivo CSS -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Mono"> <!-- vincular fuente (si el nombre de la fuente tiene varias palabras, se separan con +) -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi página web</title>
+</head>
+<body>
+    <header>
+        <div id="header-left">
+            <div><b>David López del Pino</b></div> <!-- span es como div pero sin salto de línea -->
+            <div>Estudiante de Matemáticas en la Universidad de Málaga</div>
+            <div><a href="mailto:lopezdelpinodavid@gmail.com" target="_blank">lopezdelpinodavid@gmail.com</div>
+        </div>
+        <div id="header-right">
+            <span><a href="https://github.com/dldelpino" target="_blank"><img src=".\images\github.png"></a></span>
+            <span><a href="https://www.linkedin.com/in/david-lopez-del-pino/" target="_blank"><img src=".\images\linkedin.png"></a></span>
+        </div>
+    </header>
+
+    <h2 class="section-title">✽ Proyectos</h2>
+    <hr>
+
+    <div class="project">
+        <a href=".\latex.html"><img src=".\images\latex.png" style="background-color: rgb(230, 230, 230);" href=""></a>
+        <div>
+            <a class="project-title" href=".\latex.html">LaTeX</a>
+            <div>Una recopilación de todos mis apuntes de Matemáticas hechos en LaTeX.</div>
+        </div>
+    </div> 
+
+    <div class="project">
+        <a href=".\shiny-living-dex-tracker.html"><img src=".\images\sld.png" style="background-color: rgb(230, 230, 230);" href=""></a>
+        <div>
+            <a class="project-title" href=".\shiny-living-dex-tracker.html">Shiny Living Dex Tracker</a>
+            <div>Una herramienta de seguimiento de colecciones de Pokémon variocolores. Suena mejor en inglés.</div>
+        </div>
+    </div> 
+
+    <div class="project">
+        <a href=".\project-euler.html"><img src=".\images\euler.png"></a>
+        <div>
+            <a class="project-title" href=".\project-euler.html">Project Euler (WIP)</a>
+            <div>Resolución en Python de los problemas de Project Euler.</div>
+        </div>
+    </div>
+
+</body>
+</html>
