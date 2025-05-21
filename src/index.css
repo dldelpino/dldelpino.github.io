@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css?family=Inter");
+
+body {
+    font-family: Inter, Calibri, sans-serif; 
+    /* font-family puede tomar todos los parámetros que se quiera: si no se puede cargar una fuente, pasa a la siguiente, y así hasta llegar al final */ 
+    /* normalmente, el último parámetro no es una fuente, sino una familia de fuentes */
+    font-size: 18px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    max-width: 960px; /* estándar usado por muchas webs */
+    margin: auto; /* centra todo lo que hay en la página */
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px; /* espacio entre todos ítems dentro de .header-left y .header-right */
+    /* space-between alinea el bloque header-left a la izquierda y el bloque header-right a la derecha */
+}
+
+.header-left {
+    font-size: 14px;
+}
+
+.header-right img {
+    width: 30px;
+    height: 30px;
+    padding-right: 10px;
+}
+
+.header-right img:hover {
+    transform: scale(1.1);
+}
+
+.section-title {
+    margin-bottom: 5px; /* reducir espacio bajo el título para pegarlo más a la raya */
+}
+
+.section-title a {
+    text-decoration: none;
+    color: black;
+}
+
+.section-title a:hover {
+    color: gray;
+}
+
+hr {
+    height: 1px;
+    background-color: black;
+    margin-top: 0; /* reducir espacio sobre la raya para pegarla más al título */
+    margin-bottom: 30px;
+}
+
+.project img {
+    border: 1px solid black; /* las propiedades del borde pueden escribirse en cualquier orden */
+    border-radius: 10px; /* redondez de las esquinas */
+    vertical-align: middle;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(230, 230, 230)
+}
+
+.project img:hover {
+    transform: scale(1.05);
+}
+
+.project {
+    display: flex;
+    gap: 10px; /* espacio entre los ítems del div */
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.project a {
+    display: inline-block; /* por algún motivo si quito esto se ignora el espacio abajo */
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: black;
+    text-decoration: none;
+}
+
+.project a:hover {
+    text-decoration: underline;
+}
+
+.latex {
+    display: flex;
+    justify-content: space-between;
+    max-width: 960px;
+    flex-wrap: wrap; /* para que los ítems puedan separarse en varias líneas */
+    max-width: 960px;
+}
+
+.latex img {
+    width: 310px; /* lo justo para que quepan tres en una línea*/
+    border: 2px solid gray;
+    margin-bottom: 16px;
+    border-radius: 5px;
+}
+
+a {
+    color: black;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: gray;
+}
+
+.latex img:hover {
+    transform: scale(1.05);
+}
+
+.shiny-living-dex-tracker img {
+    width: 950px; /* lo justo para que quepan tres en una línea*/
+    border: 2px solid gray;
+    border-radius: 5px;
+}
+
+.shiny-living-dex-tracker img:hover {
+    transform: scale(1.0125);
+}

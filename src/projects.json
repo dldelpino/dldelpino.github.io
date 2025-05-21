@@ -1,0 +1,17 @@
+[
+    {
+        "id": "1",
+        "title": "LaTeX",
+        "description": "Una recopilación de todos mis apuntes de Matemáticas hechos en LaTeX."
+    },
+    {
+        "id": "2",
+        "title": "Shiny Living Dex Tracker",
+        "description": "Una herramienta de seguimiento de colecciones de Pokémon variocolores. Suena mejor en inglés."
+    },
+    {
+        "id": "3",
+        "title": "Project Euler",
+        "description": "Resolución en Python de los problemas de Project Euler."
+    }
+]
