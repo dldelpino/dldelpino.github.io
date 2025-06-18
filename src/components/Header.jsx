@@ -7,7 +7,7 @@ const Header = () => {
     <header>
         <div className="header-left">
             <div><b>David López del Pino</b></div>
-            <div>Estudiante de Matemáticas en la Universidad de Málaga</div>
+            <div>Maths student at University of Málaga</div>
             <div><a href="mailto:lopezdelpinodavid@gmail.com" target="_blank">lopezdelpinodavid@gmail.com</a></div>
         </div>
         <div className="header-right">

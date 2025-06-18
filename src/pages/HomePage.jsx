@@ -4,7 +4,7 @@ import Project from "../components/Project"
 const HomePage = () => {
   return (
     <>
-      <Section title="Proyectos"/>
+      <Section title="Projects"/>
       <Project/>
     </>
   )

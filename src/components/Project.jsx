@@ -6,9 +6,9 @@ const Project = () => {
     <>
         {projects.map((project) => (
             <div className="project">
-                <Link to={`/projects/${project.id}`}><img src={`/images/projects/${project.id}.png`}/></Link>
+                <Link to={`https://github.com/dldelpino/${project.projectTitle}`} target="_blank"><img src={`/images/projects/${project.projectTitle}.png`}/></Link>
                 <div>
-                    <Link className="project-title" to={`/projects/${project.id}`}>{project.title}</Link>
+                    <Link className="project-title" to={`https://github.com/dldelpino/${project.projectTitle}`} target="_blank">{project.title}</Link>
                     <div>{project.description}</div>
                 </div>
             </div>
