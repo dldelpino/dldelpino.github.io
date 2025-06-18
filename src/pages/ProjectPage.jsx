@@ -4,6 +4,8 @@ import projects from "../projects.json"
 import ReactMarkdown from "react-markdown"
 import {useEffect, useState} from "react"
 
+// AHORA MISMO NO LO USO
+
 const ProjectPage = () => {
   const {id} = useParams() // como la url es /projects/:id, useParams() va a devolver id
   const project = projects.find((p) => String(p.id) == id) // encontrar el proyecto con el id de la url
