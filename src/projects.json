@@ -1,0 +1,32 @@
+[
+    {
+        "id": "1",
+        "title": "Maths Notes",
+        "projectTitle": "maths-notes",
+        "description": "A collection of maths-related projects made with LaTeX."
+    },
+    {
+        "id": "2",
+        "title": "Battle Frontier Pokédex",
+        "projectTitle": "battle-frontier-pokedex",
+        "description": "A tool for searching and viewing Pokémon sets used by Battle Frontier trainers."
+    },
+    {
+        "id": "3",
+        "title": "Shiny Living Dex Tracker",
+        "projectTitle": "shiny-living-dex-tracker",
+        "description": "A tool for tracking collections of shiny Pokémon."
+    },
+    {
+        "id": "4",
+        "title": "Project Euler",
+        "projectTitle": "project-euler",
+        "description": "Solutions to some problems of Project Euler using Python."
+    },
+    {
+        "id": "5",
+        "title": "Football Charts",
+        "projectTitle": "football-charts",
+        "description": "Football charts related to the top 5 European leagues."
+    }
+]
